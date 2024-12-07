@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Base.Theme.Act6_30Days"
+    android:padding="5dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="731dp"
+            android:background="@color/design_default_color_on_primary"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:theme="@style/Base.Theme.Act6_30Days">
+
+
+            <TextView
+                android:id="@+id/Day_Desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Day_1_Desc"
+                android:textAlignment="gravity"
+                android:textSize="25dp"
+                android:theme="@style/Base.Theme.Act6_30Days" />
+
+            <ImageView
+                android:id="@+id/Day_Image"
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/Date_1_Header"
+                android:theme="@style/Base.Theme.Act6_30Days"
+
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
